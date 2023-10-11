@@ -18,7 +18,7 @@ export default function Details( {data} ) {
                     Expense Name : {element.expenseName}
                   </div>
                   <div className="details-date">
-                    Date of Expense : {moment(element.date,"DD-MM-YYYY").format("MMM Do YY")}
+                    Date of Expense : {moment(element.date,"DD-MM-YYYY").format("YYYY-MM-DD")}
                   
                   </div>
 
