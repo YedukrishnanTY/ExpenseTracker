@@ -27,7 +27,7 @@ export default function Details( {data} ) {
                   </div>
 
                   <div className="details-des">
-                    Description : {element.description }
+                     {element.description }
                   </div>
                   <div className="button-shape">
                     <button value="delete" id="delete" className="delete-button">
