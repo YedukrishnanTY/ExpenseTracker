@@ -1,0 +1,29 @@
+
+.header {
+    padding: 1rem;
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: aliceblue;
+    box-shadow: 0 8px 12px 8px rgba(255, 255, 255, 0.048);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+.expense-title{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 612px) {
+    .admin-name {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,77 @@
+
+
+.details {
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.details-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+    font-family: "Montserrat";
+    margin-left: 20vh;
+    margin-right: 20vh;
+    cursor: pointer;
+    
+    
+}
+
+.details-card :hover {
+    transform: scale(1.1);
+}
+
+.details-content {
+    display: flex;
+    justify-content: center;
+    border-radius: 9px;
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 0 8px 12px 8px rgba(199, 11, 11, 0.137);
+    width: 24vh;
+    height: 16vh;
+}
+
+.details-content :hover {
+    transform: none;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+}
+.delete-button{
+    background-color: rgba(96, 205, 238, 0.637);
+    border-radius: 12px;
+    font-family: "Montserrat";
+    width: 10vh;
+    height: 30px;
+}
+.button-shape{
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+.total-amount{
+    color: green;
+}
+.details-amount{
+    color: green;
+}
+@media screen and (max-width: 612px) {
+    .details-card{
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+    .details-content{
+        width: 22vh;
+        height: 20vh;
+    }
+
+}

@@ -1,0 +1,33 @@
+
+.total{
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5vh;
+    
+
+}
+.total-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+    font-family: "Montserrat";
+    box-shadow: 0 8px 12px 8px rgba(199, 11, 11, 0.137);
+    font-size: 20px;
+}
+.total-content{
+    display: flex;
+    border-radius: 9px;
+    background-color: aliceblue;
+    padding: 20px;
+
+}
+.total-container{    
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+
+
+}
