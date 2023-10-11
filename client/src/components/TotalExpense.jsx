@@ -10,14 +10,14 @@ export default function TotalExpense({data} ) {
       totalAmount += covertElement
   })
 
-  
+
   return (
     <div>
       <div className="total">
         <div className="total-card">
           <div className="total-content">
             <div className="total-container">
-              <div className="total-name">Most Expense Category : Food</div>
+              <div className="total-name">Most Expensive day : Food</div>
               <div className="category-amount">
                 Expense Amount of Food : $ 525.00
               </div>
