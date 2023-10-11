@@ -25,6 +25,10 @@ export default function Details( {data} ) {
                   <div className="details-amount">
                     Expense Amount : { element.amount }
                   </div>
+
+                  <div className="details-des">
+                    Description : {element.description }
+                  </div>
                   <div className="button-shape">
                     <button value="delete" id="delete" className="delete-button">
                       Delete

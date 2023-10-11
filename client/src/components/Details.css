@@ -31,8 +31,8 @@
     background-color: aliceblue;
     padding: 20px;
     box-shadow: 0 8px 12px 8px rgba(199, 11, 11, 0.137);
-    width: 24vh;
-    height: 16vh;
+    width: 32vh;
+    height: 26vh;
 }
 
 .details-content :hover {
@@ -70,8 +70,8 @@
         margin-right: 2vh;
     }
     .details-content{
-        width: 22vh;
-        height: 20vh;
+        width: 30vh;
+        height: 40vh;
     }
 
 }
