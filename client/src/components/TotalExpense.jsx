@@ -10,10 +10,10 @@ export default function TotalExpense({ data }) {
   });
 
   const result = Object.groupBy(data, ({ date }) => date);
-  var temp = {};
+
 
   let valuesOfConvertElement = {};
-  Object.values(result).forEach((element, i) => {
+  Object.values(result).forEach((element) => {
     let element1 = element[0].amount.substring(1);
     let element2 = element[1]?.amount.substring(1);
     if (element2 == undefined) element2 = 0;
@@ -28,9 +28,6 @@ export default function TotalExpense({ data }) {
   let sorted = sortOfConvertElement.sort((a, b) => a[1] - b[1]);
   
   console.log(sorted[sorted.length - 1]);
-
-
-
   return (
     <div>
       <div className="total">
