@@ -14,11 +14,11 @@ export default function TotalExpense({ data }) {
 
   let valuesOfConvertElement = {};
   Object.values(result).forEach((element) => {
-    let element1 = element[0].amount.substring(1);
-    let element2 = element[1]?.amount.substring(1);
-    if (element2 == undefined) element2 = 0;
-    let convertElement1 = parseFloat(element1);
-    let convertElement2 = parseFloat(element2);
+    let amount1 = element[0].amount.substring(1);
+    let amount2 = element[1]?.amount.substring(1);
+    if (amount2 == undefined) amount2 = 0;
+    let convertElement1 = parseFloat(amount1);
+    let convertElement2 = parseFloat(amount2);
     let convertElement = convertElement1 + convertElement2;
     let currentDate = element[0].date;
     valuesOfConvertElement[currentDate] = convertElement;
