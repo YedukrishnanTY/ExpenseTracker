@@ -37,11 +37,10 @@ export default function YourComponent() {
       <div className="modal">
         <div className="modal-card">
           <div className="modal-contain">
-            {/* <div className="sunrise">Sunrise: {users.sunrise}</div> */}
             <div className="latitude">Latitude: {latitude}</div>
             <div className="longitude">Longitude: {longitude}</div>
-            <div className="latitude">sunrise: {sunrise}</div>
-            <div className="longitude">sunset: {sunset}</div>
+            <div className="sunrise">sunrise: {sunrise}</div>
+            <div className="sunset">sunset: {sunset}</div>
           </div>
         </div>
       </div>
