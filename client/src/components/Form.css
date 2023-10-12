@@ -67,7 +67,7 @@
     gap: 3em;
 }
 
-input[type=button] {
+input[type=submit] {
     padding: 16px;
 
     border-radius: 9px;
