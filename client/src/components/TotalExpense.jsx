@@ -14,9 +14,10 @@ export default function TotalExpense({ data }) {
 
   let valuesOfConvertElement = {};
   Object.values(result).forEach((element) => {
+    
     let amount1 = element[0].amount.substring(1);
     let amount2 = element[1]?.amount.substring(1);
-    if (amount2 == undefined) amount2 = 0;
+    if (amount2 === undefined) amount2 = 0;
     let convertElement1 = parseFloat(amount1);
     let convertElement2 = parseFloat(amount2);
     let convertElement = convertElement1 + convertElement2;
