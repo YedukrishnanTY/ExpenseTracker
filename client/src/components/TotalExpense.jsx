@@ -1,5 +1,6 @@
-import React from "react";
-import "./TotalExpense.css";
+import React from "react"
+import "./TotalExpense.css"
+import moment from 'moment'
 
 export default function TotalExpense({ data }) {
   let totalAmount = 0;
@@ -36,10 +37,10 @@ export default function TotalExpense({ data }) {
           <div className="total-content">
             <div className="total-container">
               <div className="total-name">
-                Most Expensive amount in a day({sorted[sorted.length - 1][0]}) - ${sorted[sorted.length - 1][1]}
+                Most Expensive day :  {moment(sorted[sorted.length - 1][0],"DD-MM-YYYY").format("YYYY-MM-DD")}
               </div>
               <div className="category-amount">
-                Expense Amount of Food : $ 525.00
+                Expense Amount: $ {sorted[sorted.length - 1][1]}
               </div>
               <div className="total-amount">
                 Total Expense Amount : $ {totalAmount}
